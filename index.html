@@ -1,0 +1,108 @@
+---
+layout: default
+title: HAC
+---
+
+<section class="content">
+<div class="container"> 
+  <br>
+  
+      
+          <style type="text/css">
+
+  #stage4 {
+    margin: 1em auto;
+    width: 800px;
+    height: 292px;
+  }
+  #stage4 a {
+    position: absolute;
+  }
+  #stage4 a img {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+
+  #stage4 a:nth-of-type(1) {
+    -webkit-animation-name: fader;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: fader;
+    -moz-animation-delay: 4s;
+    -moz-animation-duration: 1s;
+    -ms-animation-name: fader;
+    -ms-animation-delay: 4s;
+    -ms-animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage4 a:nth-of-type(2) { z-index: 10; }
+  #stage4 a:nth-of-type(n+3) { display: none; }
+
+  @-webkit-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  @-moz-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  @-ms-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+</style>
+
+<div id="stage4">
+<a href="/images/1.jpg"><img src="/images/1.jpg" width="778" height="270"></a>
+<a href="/images/2.jpg"><img src="/images/2.jpg" width="778" height="270"></a>
+<a href="/images/3.jpg"><img src="/images/3.jpg" width="778" height="270"></a>
+<a href="/images/4.jpg"><img src="/images/4.jpg" width="778" height="270"></a>
+<a href="/images/5.jpg"><img src="/images/5.jpg" width="778" height="270"></a>
+<a href="/images/6.jpg"><img src="/images/6.jpg" width="778" height="270"></a>
+<a href="/images/7.jpg"><img src="/images/7.jpg" width="778" height="270"></a>
+<a href="/images/8.jpg"><img src="/images/8.jpg" width="778" height="270"></a>
+</div>
+
+<script type="text/javascript">
+
+  document.addEventListener("DOMContentLoaded", function() {
+
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+
+    var stage = document.getElementById("stage4");
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("webkitAnimationEnd", fadeComplete, false);
+      arr[i].addEventListener("animationend", fadeComplete, false);
+      arr[i].addEventListener("MSAnimationEnd", fadeComplete, false);
+    }
+
+  }, false);
+
+</script>
+</div>
+
+              
+
+
+<div class="intro">
+
+
+<h3>WALK INTO THE FUTURE WITH OUR JOB ORIENTATION COURSES</h3>
+<p>We provide expert guidance and mentorship to our students and young candidates to acquire skills and achieve success in their future lives. . Our success is dependent on building and developing the future leaders of tomorrow.
+Our objective is to provide skills required for the jobs for students and young participants, at very affordable prices, without compromising on quality. So they get salary raises and promotions and job changes easily in the market. </p>
+
+<p>We currently provide training in courses in  Accounts, Web Development and, Microsoft Office.  In the near future our aim is to guarantee job placement services for the job seekers.</p>
+<p>On qualifying of these their various Accounts and Computer courses, the students / participants get Recognized Certificates and get ready for success in their future careers. They get prepared for the new jobs, they get increments and they climb the ladder in their organization.</p>
+<p>Our Centre is facilitated by dedicated and qualified trainers. 
+We offer quality coaching and mentoring on one to one basis to participants and students by which they get ready for their future career. They get recognition in their lives, get prepared for higher studies, new jobs, get increments and they climb the ladder in their organization. The fees are very affordable.</p>
+
+
+
+
+</div>
+</div>
+
+</section>

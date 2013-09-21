@@ -1,0 +1,8 @@
+name: HAC
+markdown: redcarpet
+pygments: true
+
+permalink: /accounts-and-finance/:title
+permalink: /about/:title
+permalink: /contact/:title
+auto: true
